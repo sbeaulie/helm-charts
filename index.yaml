@@ -879,6 +879,27 @@ entries:
   lacework-agent:
   - apiVersion: v2
     appVersion: "1.0"
+    created: "2024-09-25T04:05:16.801700425Z"
+    description: Lacework Agent
+    digest: 1ffb068ec970dd67e2b98d7034ca996e7e943ba722fa929212f3379d2ffef7b7
+    home: https://www.lacework.com
+    icon: https://www.lacework.com/wp-content/uploads/2019/07/Lacework_Logo_color_2019.svg
+    keywords:
+    - monitoring
+    - security
+    - run-time
+    - metric
+    - troubleshooting
+    kubeVersion: '> 1.9.0-0'
+    maintainers:
+    - email: info@lacework.net
+      name: lacework-support
+    name: lacework-agent
+    urls:
+    - https://github.com/sbeaulie/helm-charts/releases/download/lacework-agent-7.5.0/lacework-agent-7.5.0.tgz
+    version: 7.5.0
+  - apiVersion: v2
+    appVersion: "1.0"
     created: "2024-09-19T16:59:03.149669-07:00"
     description: Lacework Agent
     digest: ff503cc25142312e1875eba5472fe76dcb36ee96bec96e5afbc5d82688d8066e
@@ -2319,4 +2340,4 @@ entries:
     urls:
     - proxy-scanner-0.2.1.tgz
     version: 0.2.1
-generated: "2024-09-19T16:59:03.020976-07:00"
+generated: "2024-09-25T04:05:17.312148754Z"
